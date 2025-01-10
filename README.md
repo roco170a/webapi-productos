@@ -21,9 +21,8 @@ Esta solución es una **API RESTful** desarrollada en **.NET Core 8**. Proporcio
 
 Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes componentes:
 
+- [Git Client](https://git-scm.com/downloads)
 - [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
-- [SQL Server](https://www.microsoft.com/sql-server) u otro proveedor de bases de datos compatible.
-- Opcional: [Postman](https://www.postman.com/) o **cURL** para probar los endpoints.
 
 ---
 
