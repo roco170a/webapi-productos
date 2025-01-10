@@ -82,4 +82,4 @@ Utilizar un navegador web para revisar el reporte de pruebas.
 > file:///RUTARELATIVA/webapi-productos/ProductServiceTests/TestResults/testResults.html
 
 
-![Test report](https://github.com/roco170a/webapi-productos/blob/master/raw/swagger.jpg "Ejecución de pruebas")
+![Test report](https://github.com/roco170a/webapi-productos/blob/master/raw/reporte.jpg "Ejecución de pruebas")
