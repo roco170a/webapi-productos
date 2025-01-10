@@ -2,6 +2,8 @@
 
 Este proyecto es una **API RESTful** desarrollada en **.NET Core 8**. Proporciona un conjunto de endpoints para la gestión de productos, incluyendo operaciones CRUD (Crear, Leer, Actualizar y Eliminar).
 
+![Swagger final screen](https://github.com/roco170a/webapi-productos/blob/master/raw/swagger.jpg "Swagger")
+
 ## Características principales
 
 - Desarrollo en **.NET Core 8**.
