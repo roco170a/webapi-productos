@@ -56,10 +56,26 @@ dotnet run --launch-profile https --project apiProductos
 ```
 
 ### 2. Explorar la aplicación
-
 Utilizar un navegador web para revisar la ejecución de La solución.
-
 > [!TIP]
 > https://localhost:7213/swagger 
 
+---
+## Ejecución de pruebas
+
+### 1. Ingresar al proyecto de pruebas
+```bash
+cd ProductServiceTests
+```
+
+### 2. Ejecutar el bloque de pruebas y generar reporte
+```bash
+dotnet test --logger "html;logfilename=testResults.html"
+```
+
+### 3. Revisar el reporte con un navegador
+Utilizar un navegador web para revisar el reporte de pruebas.
+
+> [!TIP]
+> file:///<RUTA RELATIVA>/webapi-productos/ProductServiceTests/TestResults/testResults.html
 
