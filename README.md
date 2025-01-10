@@ -60,6 +60,8 @@ Utilizar un navegador web para revisar la ejecución de La solución.
 > [!TIP]
 > https://localhost:7213/swagger 
 
+![Execution screen](https://github.com/roco170a/webapi-productos/blob/master/raw/swagger2.jpg "Datos por default")
+
 ---
 ## Ejecución de pruebas
 
@@ -79,3 +81,13 @@ Utilizar un navegador web para revisar el reporte de pruebas.
 > [!TIP]
 > file:///RUTARELATIVA/webapi-productos/ProductServiceTests/TestResults/testResults.html
 
+
+![Test report](https://github.com/roco170a/webapi-productos/blob/master/raw/reporte.jpg "Ejecución de pruebas")
+
+
+## Contacto
+
+Si tienes preguntas o sugerencias, no dudes en contactarme a través de:
+
+- **Correo**: [roco170@gmail.com](mailto:roco170@gmail.com)
+- **GitHub**: [@roco170a](https://github.com/roco170a)
