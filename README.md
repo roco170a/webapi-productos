@@ -55,5 +55,9 @@ dotnet dev-certs https --trust
 dotnet run --launch-profile https --project apiProductos
 ```
 
-### 2. Ejecutar el proyecto con un puerto seguro
-Esta solución es
+### 2. Explorar la aplicación
+La solución por default se desplegara en la siguiente ruta:
+> [!TIP]
+> https://localhost:7213/swagger .
+
+
