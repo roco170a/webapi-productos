@@ -26,7 +26,7 @@ Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes 
 
 ---
 
-## Configuración inicial
+## Configuración del proyecto
 
 ### 1. Clonar el repositorio
 ```bash
@@ -47,7 +47,13 @@ dotnet build
 ```bash
 dotnet dev-certs https --trust
 ```
-### 5. Ejecutar el proyecto con un puerto seguro
+
+## Ejecución del proyecto
+
+### 1. Ejecutar el proyecto con un puerto seguro
 ```bash
 dotnet run --launch-profile https --project apiProductos
 ```
+
+### 2. Ejecutar el proyecto con un puerto seguro
+Esta solución es
