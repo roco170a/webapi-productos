@@ -77,5 +77,5 @@ dotnet test --logger "html;logfilename=testResults.html"
 Utilizar un navegador web para revisar el reporte de pruebas.
 
 > [!TIP]
-> file:///<RUTA RELATIVA>/webapi-productos/ProductServiceTests/TestResults/testResults.html
+> file:///RUTARELATIVA/webapi-productos/ProductServiceTests/TestResults/testResults.html
 
