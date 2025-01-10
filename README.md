@@ -83,3 +83,11 @@ Utilizar un navegador web para revisar el reporte de pruebas.
 
 
 ![Test report](https://github.com/roco170a/webapi-productos/blob/master/raw/reporte.jpg "Ejecución de pruebas")
+
+
+## Contacto
+
+Si tienes preguntas o sugerencias, no dudes en contactarme a través de:
+
+- **Correo**: [roco170@gmail.com](mailto:roco170@gmail.com)
+- **GitHub**: [@roco170a](https://github.com/roco170a)
