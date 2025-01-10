@@ -59,7 +59,7 @@ dotnet run --launch-profile https --project apiProductos
 
 Utilizar un navegador web para revisar la ejecución de La solución.
 
-> [!TIP]> 
-> https://localhost:7213/swagger .
+> [!TIP]
+> https://localhost:7213/swagger 
 
 
