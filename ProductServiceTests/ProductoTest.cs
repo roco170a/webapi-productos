@@ -48,7 +48,7 @@ public class ProductoTests
         // Assert
         isValid.Should().BeFalse();
         results.Should().ContainSingle(result =>
-                result.ErrorMessage.Contains("El nombre no puede exceder los 100 caracteres") ||
-                result.ErrorMessage.Contains("El nombre no puede ser menor a 3 caracteres"));
+                result.ErrorMessage.Contains("El nombre no puede ser menor a 3 carateres o mayor a 100 caracteres"));
+                
     }
 }
