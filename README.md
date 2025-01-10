@@ -57,8 +57,8 @@ dotnet run --launch-profile https --project apiProductos
 
 ### 2. Explorar la aplicación
 Utilizar un navegador web para revisar la ejecución de La solución
-> [!TIP]
-> Por default se desplegará en la siguiente ruta:
-> https://localhost:7213/swagger .
+:earth_americas: Por default se desplegará en la siguiente ruta:
+> [!TIP]> 
+> https://localhost:7213/swagger
 
 
