@@ -43,3 +43,11 @@ dotnet restore
 ```bash
 dotnet build
 ```
+### 4. Confiar en el certificado de seguridad 
+```bash
+dotnet dev-certs https --trust
+```
+### 5. Ejecutar el proyecto con un puerto seguro
+```bash
+dotnet run --launch-profile https --project apiProductos
+```
