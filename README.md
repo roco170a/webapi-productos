@@ -11,6 +11,7 @@ Esta solución es una **API RESTful** desarrollada en **.NET Core 8**. Proporcio
 - Usa Entity Framework Core.
 - Usa Migrations y Data Seeding para inicializar la db.
 - Utiliza validaciones de modelos con Data Annotations.
+- Contiene una capa de servicio y Dependency Injection.
 - Documentación de cada endpoint con **Swagger**.
 - Pruebas unitarias con **xUnit**.
 
