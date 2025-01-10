@@ -8,10 +8,10 @@ Esta solución es una **API RESTful** desarrollada en **.NET Core 8**. Proporcio
 ## Características principales
 
 - Desarrollo en **.NET Core 8**.
-- Validaciones de modelos con atributos de datos.
-- Documentación automática con **Swagger**.
-- Arquitectura modular con capas de servicio y acceso a datos.
-- Data Seeding para inicializar datos en la base de datos.
+- Usa Entity Framework Core.
+- Usa Migrations y Data Seeding para inicializar la db.
+- Utiliza validaciones de modelos con Data Annotations.
+- Documentación de cada endpoint con **Swagger**.
 - Pruebas unitarias con **xUnit**.
 
 ---
