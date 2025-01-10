@@ -60,7 +60,7 @@ Utilizar un navegador web para revisar la ejecución de La solución.
 > [!TIP]
 > https://localhost:7213/swagger 
 
-![Execution screen] (https://github.com/roco170a/webapi-productos/blob/master/raw/swagger2.jpg "Datos por default")
+![Execution screen](https://github.com/roco170a/webapi-productos/blob/master/raw/swagger2.jpg "Datos por default")
 
 ---
 ## Ejecución de pruebas
@@ -82,4 +82,4 @@ Utilizar un navegador web para revisar el reporte de pruebas.
 > file:///RUTARELATIVA/webapi-productos/ProductServiceTests/TestResults/testResults.html
 
 
-![Test report] (https://github.com/roco170a/webapi-productos/blob/master/raw/swagger.jpg "Ejecución de pruebas")
+![Test report](https://github.com/roco170a/webapi-productos/blob/master/raw/swagger.jpg "Ejecución de pruebas")
