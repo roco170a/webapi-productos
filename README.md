@@ -34,8 +34,12 @@ git clone https://github.com/roco170a/webapi-productos.git
 cd webapi-productos
 ```
 
-### 2. Clonar el repositorio
+### 2. Restaurar dependencias
 ```bash
-git clone https://github.com/roco170a/webapi-productos.git
-cd webapi-productos
+dotnet restore
+```
+
+### 3. Compilar el proyecto
+```bash
+dotnet build
 ```
