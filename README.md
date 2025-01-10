@@ -30,5 +30,5 @@ Antes de ejecutar la aplicación, asegúrate de tener instalados los siguientes 
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/tuusuario/tu-repositorio.git
-cd tu-repositorio
+git clone https://github.com/roco170a/webapi-productos.git
+cd webapi-productos
