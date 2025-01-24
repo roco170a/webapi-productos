@@ -8,22 +8,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Se hace el checkout
     - uses: actions/checkout@v4
-    - name: Setup .NET
+
+    - name: instalación de .NET
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-    - name: Restore dependencies
+
+    - name: Restauran dependencias 
       run: dotnet restore
-    - name: Build
+
+    - name: Compilado
       run: dotnet build --no-restore
-    - name: Test
+
+    - name: Pruebas
       run: dotnet test --no-build --verbosity normal
 
-    - name: Checkout the files
-      uses: actions/checkout@v2
-
-    - name: Deploy to Server 1
+    - name: Se hace checkout
+    - uses: actions/checkout@v4
+    
+    - name: Despliegue al servidor AWS
       uses: easingthemes/ssh-deploy@main
       env:
         SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
@@ -31,7 +36,7 @@ jobs:
         REMOTE_USER: ${{ secrets.USERNAME }}
         TARGET: ${{ secrets.TARGET_DIR }}
 
-    - name: Executing remote ssh commands using ssh key
+    - name: Ejecución cmd en AWS
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.HOST_DNS }}
