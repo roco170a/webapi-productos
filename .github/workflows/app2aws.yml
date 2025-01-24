@@ -20,9 +20,6 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
 
-    - name: Checkout the files
-      uses: actions/checkout@v2
-
     - name: Deploy to Server 1
       uses: easingthemes/ssh-deploy@main
       env:
@@ -38,4 +35,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
+          cd /home/ubuntu/webapi-productos
+          git pull          
           sudo dotnet run --project apiProductos
