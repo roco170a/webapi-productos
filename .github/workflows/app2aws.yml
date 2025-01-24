@@ -38,6 +38,5 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.EC2_SSH_KEY }}
         script: |
-          cd /home/ubuntu/webapi-productos
-          git pull          
+          cd /home/ubuntu/
           sudo dotnet build
