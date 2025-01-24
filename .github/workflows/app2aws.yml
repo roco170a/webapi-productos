@@ -7,10 +7,8 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    steps:
-    - name: Se hace el checkout
+    steps:    
     - uses: actions/checkout@v4
-
     - name: instalación de .NET
       uses: actions/setup-dotnet@v4
       with:
@@ -25,9 +23,8 @@ jobs:
     - name: Pruebas
       run: dotnet test --no-build --verbosity normal
 
-    - name: Se hace checkout
-    - uses: actions/checkout@v4
     
+    - uses: actions/checkout@v4    
     - name: Despliegue al servidor AWS
       uses: easingthemes/ssh-deploy@main
       env:
