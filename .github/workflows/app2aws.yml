@@ -20,6 +20,9 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
 
+    - name: Checkout the files
+      uses: actions/checkout@v2
+
     - name: Deploy to Server 1
       uses: easingthemes/ssh-deploy@main
       env:
