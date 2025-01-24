@@ -40,4 +40,4 @@ jobs:
         script: |
           cd /home/ubuntu/webapi-productos
           git pull          
-          sudo dotnet run --project apiProductos
+          sudo dotnet build
