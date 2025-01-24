@@ -52,8 +52,23 @@ namespace apiProductos
 
             builder.Services.AddScoped<IProductoService, ProductoService>();
 
+            //add support for CORS
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder =>
+                    {
+                        builder
+                            .AllowAnyOrigin()
+                            .AllowAnyMethod()
+                            .AllowAnyHeader();
+                    });
+            });
+
 
             var app = builder.Build();
+
+            app.UseCors("AllowAll");
 
             // Robert - 250109: Ensure that the DB was created
             app.InitializeDatabase();

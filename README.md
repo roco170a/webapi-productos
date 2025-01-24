@@ -1,4 +1,4 @@
-# Web API con .NET Core 8
+# Web API con .NET Core 8..
 
 Esta solución es una **API RESTful** desarrollada en **.NET Core 8**. Proporciona un conjunto de endpoints para la gestión de productos, incluyendo operaciones CRUD (Crear, Leer, Actualizar y Eliminar), El proyecto esta orientado a objetos, e incluye validaciones, y como base de datos por default usa SQLite.
 
