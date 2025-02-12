@@ -1,4 +1,4 @@
-# Web API .NET Core 8 + C Sharp
+# Web API .NET Core 8 + C #
 
 This solution is a **RESTful API** developed in **.NET Core 8**. It provides a set of endpoints for product management, including CRUD (Create, Read, Update and Delete) operations. The project is object-oriented, includes validations, and uses SQLite as the default database.
 
